@@ -1,0 +1,115 @@
+HTML Fundamentals – Assignment 1  
+Web Development Internship – IIT Jammu Summer School  
+Name: Aniket Kundal  
+Date: [Add Date of Submission]
+
+1. HTML elements used and their purpose:
+
+The portfolio website has been built using basic HTML elements.  
+Below is a short explanation of each element used in this assignment and what role it played:
+
+<!DOCTYPE html>  
+Tells the browser that this is an HTML5 document.
+
+<html>  
+Wraps the entire HTML content of the web page.
+
+<head>  
+Contains important background details like page title and favicon.
+
+<meta>  
+Helps the page work well on mobile screens and sets text format.
+
+<title>  
+Shows the name of the webpage on the browser tab.
+
+<link>  
+Used to connect the page to the favicon (the small icon in the browser tab).
+
+<body>  
+This is the main section where everything visible on the page is written.
+
+<h1> to <h6>  
+Heading tags used to organize content by size and importance.
+
+<p>  
+Used for writing short paragraphs or descriptions.
+
+<img>  
+Displays an image on the page. (Not used in this version.)
+
+<ol>  
+Ordered list, used to display educational qualifications.
+
+<ul>  
+Unordered list, used to show skills and menu links.
+
+<li>  
+List item inside ordered or unordered lists.
+
+<table>  
+Used to create a table showing work experience.
+
+<thead>, <tbody>  
+Helps divide the table into header and content sections.
+
+<tr>  
+Defines a table row.
+
+<th>  
+Table header cell (usually bold).
+
+<td>  
+Table data cell to show normal information in rows.
+
+<nav>  
+Creates a navigation section with links to other pages.
+
+<a>  
+Used for links that go to different pages on the site.
+
+<form>  
+Makes a contact form for collecting user input.
+
+<input>  
+Used for single-line entries like name, email, phone.
+
+<textarea>  
+Larger box used for typing messages.
+
+<select> and <option>  
+Used for drop-down menus.
+
+<label>  
+Labels each input field for clarity and accessibility.
+
+<checkbox>, <radio>  
+Used to select one or more contact or inquiry options.
+
+<button>  
+Used to submit the form.
+
+<hr>  
+Draws a horizontal line to separate sections
+2. Why these input types were used:
+
+• Text – Basic input for name or short text.  
+• Email – Automatically checks for a valid email address.  
+• Tel – Used for phone numbers with pattern restriction.  
+• Textarea – For messages that are longer than one line.  
+• Checkbox – Allows users to select multiple options.  
+• Radio buttons – Best for selecting one option from a group.  
+• Dropdown – To make the form cleaner and save space.  
+• Date – Lets the user select a date using a calendar view.  
+• Range – Provides a slider input for feedback or rating.  
+• Required & Pattern – Used to validate form fields before submitting.
+
+3. How the navigation is set up:
+
+The navigation is created using a <nav> tag and an unordered list.  
+Each list item contains a link to a different page:    
+• About Me  
+• Contact Me
+
+There is also a "Back to Portfolio" link on both the About and Contact pages.  
+This helps the user explore the full website smoothly

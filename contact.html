@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/png" href="contact-us.png">
+</head>
+<body>
+    <form action="">
+        Name: <input type="text" placeholder="Enter Name" required><br><br>
+        Email: <input type="email" placeholder="Enter Email" required><br><br>
+        Phone Number: <input type="tel" placeholder="Enter Phone Number" pattern="[0-9]{10}" required><br><br>
+        <hr>
+        <label for="Message">Message:</label>
+        <textarea id="Message" name="Message" rows="5" cols="33" required></textarea>
+        <hr>
+        Preferred Contact Option:
+        <input type="checkbox" name="method" id="email">
+        <label for="email">Email</label>
+        <input type="checkbox" name="method" id="phone">
+        <label for="phone">Phone</label>
+        <input type="checkbox" name="method" id="text">
+        <label for="text">Text</label>
+        <hr>
+        Inquiry Type:
+        <label><input type="radio" name="option" value="General">General</label>
+        <label><input type="radio" name="option" value="Business">Business</label>
+        <label><input type="radio" name="option" value="Support">Support</label>
+        <br><br>
+        Interested in Hiring:
+        <select name="Feedback" id="Feedback">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <br><br>
+        Feedback (1 to 5):
+        <input type="range" min="0" max="5">
+        <br><br>
+        Tentative Interview Date:
+        <input type="date">
+        <br><br>
+        <button>Submit</button>
+        <br><br>
+        <a href="portfolio.html">Back to Portfolio</a>
+    </form>
+</body>
+</html>
